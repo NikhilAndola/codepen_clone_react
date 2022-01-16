@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import Editor from "./Editor";
-import '../index.css';
-import useLocalStorage from '../hooks/useLocalStorage';
+import Editor from "./components/Editor";
+import './index.css';
+import useLocalStorage from './hooks/useLocalStorage';
 
 function App() {
 
